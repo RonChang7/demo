@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Not Found</title>
+    <script>
+      // 儲存當前的 URL
+      sessionStorage.redirect = location.href
+    </script>
+    <!-- 立即重定向到主頁 -->
+    <meta http-equiv="refresh" content="0;URL='/demo/'" />
+  </head>
+  <body>
+    <!-- 提供一個友好的消息給禁用 JavaScript 的用戶 -->
+    <h1>導頁中，請稍候</h1>
+    <p>If you are not redirected automatically, please <a href="/demo/">click here</a>.</p>
+  </body>
+</html>
